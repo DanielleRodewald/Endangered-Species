@@ -319,7 +319,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(newDakota)
     .setLngLat([-100.437012, 47.650589])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Whooping Crane</h3> <p>Named for its whooping sound, the whooping crane is the tallest North American bird. It is estimated that there are only around 300 Whooping Cranes left in the wild due to hunting and habitat loss.</p>')) 
     .addTo(map);
 
     const ohio= document.createElement('div');
@@ -463,5 +463,5 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(wyoming)
     .setLngLat([-107.290283, 43.075970])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3>Wyoming Toad</h3> <p>Animal description</p>')) 
+        '<h3>Wyoming Toad</h3> <p>One of the most endangered amphibians in the world, the Wyoming toad was once abundant in Wyoming’s wetlands. In 1994, Wyoming toads were extinct in the wild, and only one captive population remained. </p>')) 
     .addTo(map);

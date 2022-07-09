@@ -153,13 +153,18 @@ body { margin: 0; padding: 0; }
     background-image: url('images/');
 }
 #ND-marker{
-    background-image: url('images/');
+    background-image: url('images/ND-Crane.jpg');
+    width: 60px;
+    height: 60px;  
 }
 #OH-marker{
     background-image: url('images/');
 }
 #OK-marker{
-    background-image: url('images/');
+    background-image: url('images/OK-Bat.jpg');
+    width: 60px;
+    height: 60px; 
+    margin-top: 15px;
 }
 #OR-marker{
     background-image: url('images/OR-turtle.jpg');
