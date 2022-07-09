@@ -1,0 +1,223 @@
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+
+.marker{
+    background-image: url('images/CO-fritillary-butterfly.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+#AZ-marker{
+    background-image: url('images/AZ-Fish.jpg');
+    width: 60px;
+    height: 60px;   
+}
+
+#AL-marker{
+    background-image: url('images/AL-Fish.png');
+    /* width: 60px;
+    height: 60px;    */
+}
+
+#AR-marker{
+    background-image: url('images/AR-Woodpecker.png');
+    width: 60px;
+    height: 60px;   
+    margin-left: -5px;
+}
+
+#CA-marker{
+    background-image: url('images/CA-Brush-Rabbit.png');
+    width: 60px;
+    height: 60px;  
+}
+
+#CO-marker{
+    background-image: url('images/CO-fritillary-butterfly.png');
+    width: 60px;
+    height: 60px;  
+}
+
+#CT-marker{
+    background-image: url('images/CT-Bird.jpg');
+    width: 30px;
+    height: 30px; 
+}
+
+#DE-marker{
+    background-image: url('images/DE-Turtle.png');
+    width: 30px;
+    height: 30px; 
+}
+
+#FL-marker{
+    background-image: url('images/FL-Panther.jpg');
+}
+
+#GA-marker{
+    background-image: url('images/GA-salamander.jpg');
+    margin-top: 8px;
+}
+
+#ID-marker{
+    background-image: url('images/ID-Caribou.jpg');
+    width: 60px;
+    height: 60px;  
+}
+
+#IL-marker{
+    background-image: url('images/');
+}
+
+#IN-marker{
+    background-image: url('images/');
+}
+
+#IA-marker{
+    background-image: url('images/');
+}
+
+#KS-marker{
+    background-image: url('images/');
+}
+
+#KY-marker{
+    background-image: url('images/');
+}
+
+#LA-marker{
+    background-image: url('images/');
+}
+
+#ME-marker{
+    background-image: url('images/');
+}
+#MD-marker{
+    background-image: url('images/');
+}
+
+#MA-marker{
+    background-image: url('images/MA-turtle.jpg');
+    width: 30px;
+    height: 30px; 
+}
+
+#MI-marker{
+    background-image: url('images/MI-Dragonfly.jpg');
+    width: 60px;
+    height: 60px;  
+}
+
+#MN-marker{
+    background-image: url('images/MN-Butterfly.jpg');
+    width: 60px;
+    height: 60px;  
+}
+#MS-marker{
+    background-image: url('images/MS-Crane.jpg');
+    margin-left: 8px;
+}
+#MO-marker{
+    background-image: url('images/');
+
+}
+#MT-marker{
+    background-image: url('images/MT-Ferret.jpg');
+    width: 60px;
+    height: 60px;  
+}
+#NE-marker{
+    background-image: url('images/');
+}
+#NV-marker{
+    background-image: url('images/');
+}
+#NH-marker{
+    background-image: url('images/');
+}
+#NJ-marker{
+    background-image: url('images/');
+}
+#NM-marker{
+    background-image: url('images/');
+}
+#NY-marker{
+    background-image: url('images/');
+}
+#NC-marker{
+    background-image: url('images/');
+}
+#ND-marker{
+    background-image: url('images/');
+}
+#OH-marker{
+    background-image: url('images/');
+}
+#OK-marker{
+    background-image: url('images/');
+}
+#OR-marker{
+    background-image: url('images/OR-turtle.jpg');
+    width: 60px;
+    height: 60px;  
+}
+#PA-marker{
+    background-image: url('images/');
+}
+#RI-marker{
+    background-image: url('images/');
+}
+#SC-marker{
+    background-image: url('images/');
+}
+#SD-marker{
+    background-image: url('images/');
+}
+#TN-marker{
+    background-image: url('images/');
+}
+#TX-marker{
+    background-image: url('images/TX-chicken.jpg');
+    width: 65px;
+    height: 65px;  
+    margin-top: -10px;
+    margin-left: 15px;
+}
+#UT-marker{
+    background-image: url('images/UT-bird.jpg');
+    width: 60px;
+    height: 60px; 
+}
+#VT-marker{
+    background-image: url('images/');
+}
+#VA-marker{
+    background-image: url('images/');
+}
+#WA-marker{
+    background-image: url('images/WA-rabbits.jpg');
+    width: 60px;
+    height: 60px;  
+}
+#WV-marker{
+    background-image: url('images/');
+}
+#WI-marker{
+    background-image: url('images/');
+}
+#WY-marker{
+    background-image: url('images/WY-toad.jpg');
+    width: 60px;
+    height: 60px;  
+}
+.mapboxgl-popup {
+    /* max-width: 230px; */
+    padding: 10px;
+    font-size: medium;
+    color: black;
+}
