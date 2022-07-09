@@ -47,6 +47,7 @@ body { margin: 0; padding: 0; }
     background-image: url('images/CT-Bird.jpg');
     width: 30px;
     height: 30px; 
+    margin-top: 5px;
 }
 
 #DE-marker{
@@ -103,8 +104,9 @@ body { margin: 0; padding: 0; }
 
 #MA-marker{
     background-image: url('images/MA-turtle.jpg');
-    width: 30px;
-    height: 30px; 
+    width: 25px;
+    height: 25px; 
+    margin-left: -15px;
 }
 
 #MI-marker{
@@ -150,7 +152,9 @@ body { margin: 0; padding: 0; }
     background-image: url('images/');
 }
 #NC-marker{
-    background-image: url('images/');
+    background-image: url('images/NC-Butterfly.jpg');
+    margin-left: 50px;
+    margin-top: 10px;
 }
 #ND-marker{
     background-image: url('images/ND-Crane.jpg');
@@ -175,10 +179,14 @@ body { margin: 0; padding: 0; }
     background-image: url('images/');
 }
 #RI-marker{
-    background-image: url('images/');
+    background-image: url('images/RI-turtle.jpg');
+    width: 20px;
+    height: 20px;
+    margin-left: 10px; 
 }
 #SC-marker{
-    background-image: url('images/');
+    background-image: url('images/SC-Turtle.jpg');
+    margin-left: 10px;
 }
 #SD-marker{
     background-image: url('images/');

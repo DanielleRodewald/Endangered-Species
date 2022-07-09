@@ -310,7 +310,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(newCarolina)
     .setLngLat([-80.793457, 35.782169])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Saint Francis’ Satyr Butterfly</h3> <p>The Saint Francis’ satyr is an endangered butterfly subspecies found only in North Carolina. Its populations have been reduced by habitat loss, particularly by loss of wetland openings along streams.</p>')) 
     .addTo(map);
 
     const newDakota= document.createElement('div');
@@ -337,7 +337,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(oklahoma)
     .setLngLat([-96.921387, 36.084621])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Ozark Big-Eared Bat</h3> <p>The Ozark big-eared bat is an endangered species found only in a small number of caves in the southern central United States. The total population of Ozark big-eared bats is estimated to be less than 2,000 individuals.</p>')) 
     .addTo(map);
 
     const oregon= document.createElement('div');
@@ -364,7 +364,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(rhodeIsland)
     .setLngLat([-71.742332, 41.742325])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Hawksbill Sea Turtle</h3> <p>Hawksbills are named for their pointed beak, play a key role in the function of marine ecosystems. They are most threatened by wildlife trade and face the unique threat of being hunted for their beautiful shell.</p>')) 
     .addTo(map);
 
     const southCarolina= document.createElement('div');
@@ -373,7 +373,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(southCarolina)
     .setLngLat([-81.163727, 33.836082])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Kemp’s Ridley Sea Turtle</h3> <p>Kemp’s ridleys are the smallest and most critically endangered sea turtle species in the world. Bycatch in commercial and recreational fishing gear is the biggest threat facing the turtles.</p>')) 
     .addTo(map);
 
     const southDakota= document.createElement('div');
