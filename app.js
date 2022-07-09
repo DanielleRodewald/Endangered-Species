@@ -49,7 +49,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(arizona)
     .setLngLat([-111.093735, 34.048927])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3>Yaqui Chub</h3> <p>A small fresh-water fish that lives in the quiet waters of streams and has adapted well to living in ponds on the Refuge. </p>')) 
+        '<h3>Yaqui Chub</h3> <p>A small fresh-water fish that lives in the quiet waters of streams.The Yaqui chub face several threats, including: increased aquifer pumping, reduction of flows in streams, and overgrazing.</p>')) 
     .addTo(map);
 
     const arkansas = document.createElement('div');
@@ -67,7 +67,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(california)
     .setLngLat([-119.417931, 36.778259])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3>Riparian Brush Rabbit</h3> <p>The riparian brush rabbit is a medium to small cottontail in the Leporidae family. Its colors vary from dark brown to gray above to white underneath.</p>')) 
+        '<h3>Riparian Brush Rabbit</h3> <p>The riparian brush rabbit is a medium to small cottontail in the Leporidae family. A large percentage of the species lives in the San Joaquin Valley, where their decline have largely been attributed to loss of habitat.</p>')) 
     .addTo(map);
 
     const colorado = document.createElement('div');
@@ -76,7 +76,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(colorado)
     .setLngLat([-105.358887, 39.113014])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3>Uncompahgre Fritillary Butterfly</h3> <p>The Uncompahgre fritillary is a small butterfly with a 2-3 cm wingspan. It was discovered in Colorado in 1978 and subsequently described as a new species.</p>')) 
+        '<h3>Uncompahgre Fritillary Butterfly</h3> <p>The Uncompahgre fritillary is a small butterfly with a 2-3 cm wingspan. The butterfly was listed as endangered on June 24, 1991 and has been verified at only two areas in the San Juan Mountains in Colorado.</p>')) 
     .addTo(map);
 
     const connecticut = document.createElement('div');
@@ -130,7 +130,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(illinois)
     .setLngLat([-89.000000, 40.000000])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Hine’s Emerald Dragonfly</h3> <p>The Hines preferred habitat is groundwater-fed wetlands over dolomite or limestone bedrock, creating slightly alkaline water. With wetlands disappearing at a high rate, preserving its habitat has not been easy.</p>')) 
     .addTo(map);
 
     const indiana= document.createElement('div');
@@ -139,7 +139,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(indiana)
     .setLngLat([-86.126976, 40.273502])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Short-eared Owl</h3> <p>The short-eared owl is a medium-sized owl typically seen flying low over open marshes or fields. The primary threats are habitat loss, human disturbance, and prey availability.</p>')) 
     .addTo(map);
 
     const iowa= document.createElement('div');
@@ -157,7 +157,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(kansas)
     .setLngLat([-98.000000, 38.500000])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Least Tern</h3> <p>A distinctive, very small seabird, with long, narrow wings and sharp bill. Before the species was protected as endangered the number of interior least terns had plummeted below 2,000 birds due to changes to river systems.</p>')) 
     .addTo(map);
 
     const kentucky= document.createElement('div');
@@ -193,7 +193,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(maryland)
     .setLngLat([-76.641273, 39.045753])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Hay’s Spring Amphipod</h3> <p> The Hay’s Spring Amphipod is a tiny crustacean that hides in the crevasses of freshwater springs. Due to its small population, sensitivity to urban development, and changes in water quality the animal was officially declared endangered in 1982.</p>')) 
     .addTo(map);
     
     const massachusetts= document.createElement('div');
@@ -238,7 +238,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(missouri)
     .setLngLat([-92.603760, 38.573936])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Gray Wolf</h3> <p>The gray wolf originally ranged throughout Missouri, but with settlement the species was gradually exterminated. While there is no evidence of a breeding population, they occasionally wander into Missouri from northern states.</p>')) 
     .addTo(map);
 
     const montana= document.createElement('div');
@@ -283,7 +283,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(newJersey)
     .setLngLat([-74.871826, 39.833851])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Leatherback Sea Turtle</h3> <p>The leatherback sea turtle is the largest turtle in the world. They are the only species of sea turtle that lack scales and a hard shell. Once prevalent in every ocean except the Arctic and Antarctic, the leatherback population is rapidly declining in many parts of the world.</p>')) 
     .addTo(map);
 
     const newMexico= document.createElement('div');
@@ -301,7 +301,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(newYork)
     .setLngLat([-75.000000, 43.000000])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Short-eared Owl</h3> <p>The short-eared owl is a medium-sized owl typically seen flying low over open marshes or fields. The primary threats are habitat loss, human disturbance, and prey availability.</p>')) 
     .addTo(map);
 
     const newCarolina= document.createElement('div');
@@ -328,7 +328,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(ohio)
     .setLngLat([-82.996216, 40.367474])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Lark sparrow</h3> <p>Lark sparrows generally are only seen in Ohio during spring and summer when they are nesting and raising their young. They have experienced decline largely due to habitat loss and fragmentation.</p>')) 
     .addTo(map);
 
     const oklahoma= document.createElement('div');

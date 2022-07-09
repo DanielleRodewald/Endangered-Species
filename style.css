@@ -52,8 +52,8 @@ body { margin: 0; padding: 0; }
 
 #DE-marker{
     background-image: url('images/DE-Turtle.png');
-    width: 25px;
-    height: 25px; 
+    width: 20px;
+    height: 20px; 
 }
 
 #FL-marker{
@@ -72,11 +72,11 @@ body { margin: 0; padding: 0; }
 }
 
 #IL-marker{
-    background-image: url('images/');
+    background-image: url('images/MI-Dragonfly.jpg');
 }
 
 #IN-marker{
-    background-image: url('images/');
+    background-image: url('images/NY-owl.png');
 }
 
 #IA-marker{
@@ -86,7 +86,9 @@ body { margin: 0; padding: 0; }
 }
 
 #KS-marker{
-    background-image: url('images/');
+    background-image: url('images/KS-bird.png');
+    width: 60px;
+    height: 60px;  
 }
 
 #KY-marker{
@@ -98,7 +100,9 @@ body { margin: 0; padding: 0; }
     background-image: url('images/CT-Bird.jpg');
 }
 #MD-marker{
-    background-image: url('images/');
+    background-image: url('images/MD-Amphipod.jpg');
+    width: 25px;
+    height: 25px; 
 }
 
 #MA-marker{
@@ -124,7 +128,9 @@ body { margin: 0; padding: 0; }
     margin-left: 8px;
 }
 #MO-marker{
-    background-image: url('images/');
+    background-image: url('images/MO-wolf.jpg');
+    width: 60px;
+    height: 60px;  
 
 }
 #MT-marker, #SD-marker {
@@ -144,7 +150,11 @@ body { margin: 0; padding: 0; }
     margin-top: 15px;
 }
 #NJ-marker{
-    background-image: url('images/');
+    background-image: url('images/DE-Turtle.png');
+    width: 30px;
+    height: 30px;
+    margin-top:-8px;
+    margin-left: 12px;
 }
 #NM-marker{
     background-image: url('images/NM-Salamander.jpg');
@@ -152,7 +162,7 @@ body { margin: 0; padding: 0; }
     height: 60px;
 }
 #NY-marker{
-    background-image: url('images/');
+    background-image: url('images/NY-owl.png');
 }
 #NC-marker{
     background-image: url('images/NC-Butterfly.jpg');
@@ -166,7 +176,7 @@ body { margin: 0; padding: 0; }
     height: 60px;  
 }
 #OH-marker{
-    background-image: url('images/');
+    background-image: url('images/OH-Bird.png');
 }
 #OK-marker{
     background-image: url('images/OK-Bat.jpg');
@@ -234,6 +244,9 @@ body { margin: 0; padding: 0; }
 }
 #WV-marker{
     background-image: url('images/WV-fish.jpg');
+    width: 40px;
+    height: 40px;  
+    margin-top: 5px;
 }
 #WI-marker{
     background-image: url('images/WI-Bee.jpg');
