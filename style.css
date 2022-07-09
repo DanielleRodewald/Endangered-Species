@@ -137,7 +137,9 @@ body { margin: 0; padding: 0; }
     background-image: url('images/');
 }
 #NV-marker{
-    background-image: url('images/');
+    background-image: url('images/NV-Fish.jpg');
+    width: 60px;
+    height: 60px; 
 }
 #NH-marker{
     background-image: url('images/');
@@ -146,7 +148,9 @@ body { margin: 0; padding: 0; }
     background-image: url('images/');
 }
 #NM-marker{
-    background-image: url('images/');
+    background-image: url('images/NM-Salamander.jpg');
+    width: 60px;
+    height: 60px;
 }
 #NY-marker{
     background-image: url('images/');
@@ -192,7 +196,9 @@ body { margin: 0; padding: 0; }
     background-image: url('images/');
 }
 #TN-marker{
-    background-image: url('images/');
+    background-image: url('images/TN-Crayfish.png');
+    width: 45px;
+    height: 45px;
 }
 #TX-marker{
     background-image: url('images/TX-chicken.jpg');
@@ -218,10 +224,12 @@ body { margin: 0; padding: 0; }
     height: 60px;  
 }
 #WV-marker{
-    background-image: url('images/');
+    background-image: url('images/WV-fish.jpg');
 }
 #WI-marker{
-    background-image: url('images/');
+    background-image: url('images/WI-Bee.jpg');
+    width: 60px;
+    height: 60px;  
 }
 #WY-marker{
     background-image: url('images/WY-toad.jpg');

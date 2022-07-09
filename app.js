@@ -265,7 +265,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(nevada)
     .setLngLat([-117.224121, 39.876019])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Pahrump Poolfish</h3> <p>Originally, the Pahrump Poolfish was known only from Manse Spring on the Manse Ranch in Nye County. It was eliminated from this spring in 1975 when the water dried up due to excessive groundwater pumping for irrigation.</p>')) 
     .addTo(map);
 
     const newHampshire= document.createElement('div');
@@ -292,7 +292,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(newMexico)
     .setLngLat([-106.018066, 34.307144])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Jemez Mountains Salamander</h3> <p>The small and secretive Jemez Mountains salamander lives in the Valles Caldera of New Mexico’s Jemez Mountains. It is now found in only 38 percent of the sites it historically occupied due to habitat loss.</p>')) 
     .addTo(map);
 
     const newYork= document.createElement('div');
@@ -391,7 +391,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(tennessee)
     .setLngLat([-86.660156, 35.860119])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Nashville Crayfish</h3> <p>Crayfish play a valuable role in their ecosystem, as they are an important source of food for over 240 other species. With continuous growth of Nashville’s metropolitan areas comes damage and pollution to waterways that major threat to native species.</p>')) 
     .addTo(map);
 
     const texas= document.createElement('div');
@@ -445,7 +445,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(westVirginia)
     .setLngLat([-80.500000, 39.000000])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Diamond Darter</h3> <p>The diamond darter is a small fish that is so rare it was thought to be extinct until it was rediscovered in the Elk River in West Virginia in 1980. Fewer than 125 of the fish have been seen over the past 30 years.</p>')) 
     .addTo(map);
 
     const wisconsin= document.createElement('div');
@@ -454,7 +454,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(wisconsin)
     .setLngLat([-89.500000, 44.500000])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Rusty Patched Bumble Bee</h3> <p>The rusty patched bumble bee is a species native to eastern North America. This bee’s population has declined from an estimated 87% of its historic range in recent years due to  habitat loss and climate change. </p>')) 
     .addTo(map);
 
     const wyoming= document.createElement('div');
