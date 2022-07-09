@@ -52,8 +52,8 @@ body { margin: 0; padding: 0; }
 
 #DE-marker{
     background-image: url('images/DE-Turtle.png');
-    width: 30px;
-    height: 30px; 
+    width: 25px;
+    height: 25px; 
 }
 
 #FL-marker{
@@ -80,7 +80,9 @@ body { margin: 0; padding: 0; }
 }
 
 #IA-marker{
-    background-image: url('images/');
+    background-image: url('images/KY-frog.jpg');
+    width: 60px;
+    height: 60px;  
 }
 
 #KS-marker{
@@ -88,15 +90,12 @@ body { margin: 0; padding: 0; }
 }
 
 #KY-marker{
-    background-image: url('images/');
-}
-
-#LA-marker{
-    background-image: url('images/');
+    background-image: url('images/KY-frog.jpg');
+    margin-top: 5px;
 }
 
 #ME-marker{
-    background-image: url('images/');
+    background-image: url('images/CT-Bird.jpg');
 }
 #MD-marker{
     background-image: url('images/');
@@ -128,13 +127,10 @@ body { margin: 0; padding: 0; }
     background-image: url('images/');
 
 }
-#MT-marker{
+#MT-marker, #SD-marker {
     background-image: url('images/MT-Ferret.jpg');
     width: 60px;
     height: 60px;  
-}
-#NE-marker{
-    background-image: url('images/');
 }
 #NV-marker{
     background-image: url('images/NV-Fish.jpg');
@@ -142,7 +138,10 @@ body { margin: 0; padding: 0; }
     height: 60px; 
 }
 #NH-marker{
-    background-image: url('images/');
+    background-image: url('images/MN-Butterfly.jpg');
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
 }
 #NJ-marker{
     background-image: url('images/');
@@ -160,7 +159,8 @@ body { margin: 0; padding: 0; }
     margin-left: 50px;
     margin-top: 10px;
 }
-#ND-marker{
+#ND-marker,
+#NE-marker {
     background-image: url('images/ND-Crane.jpg');
     width: 60px;
     height: 60px;  
@@ -180,7 +180,9 @@ body { margin: 0; padding: 0; }
     height: 60px;  
 }
 #PA-marker{
-    background-image: url('images/');
+    background-image: url('images/VT-bat.png');
+    margin-top: 10px;
+    margin-left: -5px;
 }
 #RI-marker{
     background-image: url('images/RI-turtle.jpg');
@@ -188,13 +190,15 @@ body { margin: 0; padding: 0; }
     height: 20px;
     margin-left: 10px; 
 }
-#SC-marker{
+#SC-marker {
     background-image: url('images/SC-Turtle.jpg');
     margin-left: 10px;
 }
-#SD-marker{
-    background-image: url('images/');
+#LA-marker {
+    background-image: url('images/SC-Turtle.jpg');
+    margin-top: -15px;
 }
+
 #TN-marker{
     background-image: url('images/TN-Crayfish.png');
     width: 45px;
@@ -213,10 +217,15 @@ body { margin: 0; padding: 0; }
     height: 60px; 
 }
 #VT-marker{
-    background-image: url('images/');
+    background-image: url('images/VT-bat.png');
+    width: 30px;
+    height: 30px; 
+    margin-top: -10px;
 }
 #VA-marker{
-    background-image: url('images/');
+    background-image: url('images/RI-turtle.jpg');
+    margin-top: 10px;
+    margin-left: -5px;
 }
 #WA-marker{
     background-image: url('images/WA-rabbits.jpg');

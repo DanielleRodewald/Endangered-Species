@@ -148,7 +148,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(iowa)
     .setLngLat([-93.581543, 42.032974])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Crawfish Frog</h3> <p>The crawfish frog is a medium-sized, robust frog. The IUCN Red List states that crawfish frogs are probably in significant decline because of widespread habitat loss, mostly from the drainage of breeding ponds.</p>')) 
     .addTo(map);
 
     const kansas= document.createElement('div');
@@ -166,7 +166,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(kentucky)
     .setLngLat([-84.270020, 37.839333])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Crawfish Frog</h3> <p>The crawfish frog is a medium-sized, robust frog. The IUCN Red List states that crawfish frogs are probably in significant decline because of widespread habitat loss, mostly from the drainage of breeding ponds.</p>')) 
     .addTo(map);
 
     const louisiana= document.createElement('div');
@@ -175,7 +175,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(louisiana)
     .setLngLat([-92.329102, 30.391830])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Kemp’s Ridley Sea Turtle</h3> <p>Kemp’s ridleys are the smallest and most critically endangered sea turtle species in the world. Bycatch in commercial and recreational fishing gear is the biggest threat facing the turtles.</p>')) 
     .addTo(map);
 
     const maine= document.createElement('div');
@@ -184,7 +184,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(maine)
     .setLngLat([-68.972168, 45.367584])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Roseate tern</h3> <p>The roseate tern is about 40 centimeters in length, with light-gray wings and back. The roseate tern population is estimated to have fallen by 75% since the 1930s.</p>')) 
     .addTo(map);
 
     const maryland= document.createElement('div');
@@ -256,7 +256,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(nebraska)
     .setLngLat([-100.000000, 41.500000])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Whooping Crane</h3> <p>Named for its whooping sound, the whooping crane is the tallest North American bird. It is estimated that there are only around 300 Whooping Cranes left in the wild due to hunting and habitat loss.</p>')) 
     .addTo(map);
 
     const nevada= document.createElement('div');
@@ -274,7 +274,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(newHampshire)
     .setLngLat([-71.500000, 44.000000])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Karner Blue Butterfly</h3> <p>Karner blue butterflies were federally listed as endangered in 1992, because of dramatic declines in populations due to habitat loss and modifications, such as fire suppression.</p>')) 
     .addTo(map);
 
     const newJersey= document.createElement('div');
@@ -355,7 +355,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(pennsylvania)
     .setLngLat([-77.194527, 41.203323])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Indiana Bat</h3> <p>The Indiana bat is a small,  migratory bat that hibernates colonially in caves and mines in the winter. The species was listed as endangered in the 1960s due to human disturbance of caves that bats use for winter hibernating.</p>')) 
     .addTo(map);
 
     const rhodeIsland= document.createElement('div');
@@ -382,7 +382,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(southDakota)
     .setLngLat([-100.000000, 44.500000])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Black-Footed Ferret</h3> <p>Black-footed ferrets are North America’s only native ferret species and one of most endangered mammals of the continent. Currently there are 340 black-footed ferrets in the wild and 301 in captivity.</p>')) 
     .addTo(map);
 
     const tennessee= document.createElement('div');
@@ -418,7 +418,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(vermont)
     .setLngLat([-72.699997, 44.000000])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Indiana Bat</h3> <p>The Indiana bat is a small,  migratory bat that hibernates colonially in caves and mines in the winter. The species was listed as endangered in the 1960s due to human disturbance of caves that bats use for winter hibernating.</p>')) 
     .addTo(map);
 
     const virginia= document.createElement('div');
@@ -427,7 +427,7 @@ map.on('load', 'states-layer', (e) => {
    new mapboxgl.Marker(virginia)
     .setLngLat([-78.024902, 37.926868])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
-        '<h3> </h3> <p>Animal description</p>')) 
+        '<h3>Hawksbill Sea Turtle</h3> <p>Hawksbills are named for their pointed beak, play a key role in the function of marine ecosystems. They are most threatened by wildlife trade and face the unique threat of being hunted for their beautiful shell.</p>')) 
     .addTo(map);
 
     const washington= document.createElement('div');
