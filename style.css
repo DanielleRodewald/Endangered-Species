@@ -305,6 +305,7 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
     padding: 10px;
     font-size: medium;
     color: black;
+    z-index: 3;
 }
 
 
@@ -351,6 +352,7 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
     .mapboxgl-popup {
         padding: 2px;
         font-size: 7px;
+
         /* max-width: 150px;
         max-height: 150px; */
     }
