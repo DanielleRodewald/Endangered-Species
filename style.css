@@ -345,7 +345,7 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
         overflow: hidden;
     }
     #navText h3{
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .mapboxgl-popup {
@@ -362,6 +362,21 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
         overflow: scroll;
         max-width: 100px;
         max-height: 100px;
+    }
+
+    .mapboxgl-popup p::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 3px;
+    }
+    
+    .mapboxgl-popup p::-webkit-scrollbar-track:vertical {
+        background-color: rgb(111, 111, 223);
+        border-radius: 6px;
+    }
+    
+    .mapboxgl-popup p::-webkit-scrollbar-thumb:vertical {
+        border-radius: 8px;
+        background-color: blue;
     }
     
 }
