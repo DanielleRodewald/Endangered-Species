@@ -339,5 +339,17 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
         min-width: 300px;
         overflow: hidden;
     }
+
+    .mapboxgl-popup {
+        padding: 2px;
+        font-size: 10px;
+        width: 210px;
+        height: 210px;
+        overflow: auto;
+    }
+
+    .mapboxgl-popup h1 {
+        font-size: 15px;
+    }
     
 }
