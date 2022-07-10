@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'robotoslab';
+    src: url(RobotoSlab.ttf) format('truetype');
+}
+
 body { margin: 0; padding: 0; }
-#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+#map { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%; }
 
 #nav{
     position: absolute;
@@ -8,7 +17,20 @@ body { margin: 0; padding: 0; }
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-color: aquamarine;
+    background: rgb(80,214,120);
+background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%, rgba(0,212,255,1) 100%);
+    font-family: 'robotoslab', 'Times New Roman', Times, serif;
+    text-shadow: 1.5px 1px rgb(139, 139, 139);
+}
+
+#navText {
+    flex-direction: column;
+    line-height: 3px;
+}
+
+#navText p {
+    color: red;
+    text-shadow: 1px 1px rgb(12, 2, 2);
 }
 
 
@@ -20,6 +42,13 @@ body { margin: 0; padding: 0; }
     border-radius: 50%;
     border: 1px black solid;
     cursor: pointer;
+}
+
+.marker:hover{
+    border: 3px black solid;
+    width: 70px !important;
+    height: 70px !important;
+    z-index: 2;
 }
 
 #AZ-marker{
@@ -68,6 +97,9 @@ body { margin: 0; padding: 0; }
 
 #FL-marker{
     background-image: url('images/FL-Panther.jpg');
+    margin-top: -25px;
+    width: 45px;
+    height: 45px; 
 }
 
 #GA-marker{
@@ -273,4 +305,39 @@ body { margin: 0; padding: 0; }
     padding: 10px;
     font-size: medium;
     color: black;
+}
+
+
+@media (max-width: 768px) {
+    .marker{
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .marker:hover{
+       min-width: 50px !important;
+        min-height: 50px !important;
+    }
+
+    #CT-marker, #NJ-marker, #VT-marker{
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    #DE-marker, #MD-marker #MA-marker, #NH-marker, #RI-marker
+    {
+        max-width: 15px;
+        max-height: 15px;
+    }
+    
+}
+
+@media (max-width: 368px) {
+    #navText {
+        font-size: 10px;
+        line-height: 5px;
+        max-width: 350px;
+        min-width: 300px;
+        overflow: hidden;
+    }
+    
 }

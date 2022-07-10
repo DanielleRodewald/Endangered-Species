@@ -5,7 +5,8 @@ var map = new mapboxgl.Map({
     center: [-98.5795, 39.828175],
     // Longitude 1st, Latitude 2nd
     zoom: 4,
-    minZoom: 4
+    minZoom: 4,
+    maxZoom: 6
 });
 
 map.on('load', () => {
@@ -465,3 +466,19 @@ map.on('load', 'states-layer', (e) => {
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
         '<h3>Wyoming Toad</h3> <p>One of the most endangered amphibians in the world, the Wyoming toad was once abundant in Wyoming’s wetlands. In 1994, Wyoming toads were extinct in the wild, and only one captive population remained. </p>')) 
     .addTo(map);
+
+
+    window.addEventListener('resize', function(event){
+        // get the width of the screen after the resize event
+        var width = document.documentElement.clientWidth;
+        // tablets are between 768 and 922 pixels wide
+        // phones are less than 768 pixels wide
+        if (width < 768) {
+            // set the zoom level to 10
+            map.setMinZoom(3);
+            map.setZoom(3);
+        }  else {
+            // set the zoom level to 8
+            map.setZoom(4);
+        }
+    });
