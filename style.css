@@ -310,8 +310,8 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
 
 @media (max-width: 768px) {
     .marker{
-        max-width: 30px;
-        max-height: 30px;
+        max-width: 40px;
+        max-height: 40px;
     }
     .marker:hover{
        min-width: 50px !important;
@@ -334,22 +334,29 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
 @media (max-width: 368px) {
     #navText {
         font-size: 10px;
-        line-height: 5px;
+        line-height: 10px;
         max-width: 350px;
         min-width: 300px;
         overflow: hidden;
     }
+    #navText h3{
+        font-size: 8px;
+    }
 
     .mapboxgl-popup {
         padding: 2px;
-        font-size: 10px;
-        width: 210px;
-        height: 210px;
-        overflow: auto;
+        font-size: 7px;
+        /* max-width: 150px;
+        max-height: 150px; */
     }
 
     .mapboxgl-popup h1 {
-        font-size: 15px;
+        font-size: 10px;
+    }
+    .mapboxgl-popup p {
+        overflow: scroll;
+        max-width: 100px;
+        max-height: 100px;
     }
     
 }
