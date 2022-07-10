@@ -310,8 +310,8 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
 
 @media (max-width: 768px) {
     .marker{
-        max-width: 40px;
-        max-height: 40px;
+        max-width: 30px;
+        max-height: 30px;
     }
     .marker:hover{
        min-width: 50px !important;
@@ -331,7 +331,12 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
     
 }
 
-@media (max-width: 368px) {
+@media (max-width: 380px) {
+    .marker{
+        max-width: 35px;
+        max-height: 35px;
+    }
+
     #navText {
         font-size: 10px;
         line-height: 10px;
