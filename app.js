@@ -35,6 +35,9 @@ map.on('load', 'states-layer', (e) => {
     });
     });
 
+    // https://www.usatoday.com/story/news/nation/2021/10/07/endangered-species-most-threatened-animal-species-each-state/6036485001/
+    //https://www.latlong.net/category/states-236-14.html
+    
     const alabama = document.createElement('div');
     alabama.className = 'marker';
     alabama.id = 'AL-marker';
@@ -465,6 +468,24 @@ map.on('load', 'states-layer', (e) => {
     .setLngLat([-107.290283, 43.075970])
     .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
         '<h3>Wyoming Toad</h3> <p>One of the most endangered amphibians in the world, the Wyoming toad was once abundant in Wyoming’s wetlands. In 1994, Wyoming toads were extinct in the wild, and only one captive population remained. </p>')) 
+    .addTo(map);
+
+    const alaska= document.createElement('div');
+    alaska.className = 'marker';
+    alaska.id = 'AK-marker';
+   new mapboxgl.Marker(alaska)
+    .setLngLat([-153.369141, 66.160507])
+    .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
+        '<h3>Short-tailed Albatross</h3> <p>The short-tailed albatross is a very large seabird, with a body averaging 36 inches in length. Some of the threats to these birds include incidental bycatch, habitat loss,invasive species, and plastic debris, which the birds mistake for food.</p>')) 
+    .addTo(map);
+
+    const hawaii= document.createElement('div');
+    hawaii.className = 'marker';
+    hawaii.id = 'HI-marker';
+   new mapboxgl.Marker(hawaii)
+    .setLngLat([-155.844437, 19.741755])
+    .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(
+        '<h3>Akikiki</h3> <p>The ’Akikiki, also known as the Kaua’i Creeper, is a type of Hawaiian honeycreeper. With fewer than 500 individuals remaining, this is one of the worldWith fewer than 500 individuals remaining, this is one of the world’s most endangered birds.s most endangered birds. </p>')) 
     .addTo(map);
 
 

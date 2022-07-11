@@ -300,6 +300,18 @@ background: linear-gradient(90deg, rgba(80,214,120,1) 0%, rgba(96,208,205,1) 49%
     width: 60px;
     height: 60px;  
 }
+
+#AK-marker {
+    background-image: url('images/AK-bird.png');
+    width: 60px;
+    height: 60px; 
+}
+
+#HI-marker {
+    background-image: url('images/HI-bird.png');
+    width: 60px;
+    height: 60px; 
+}
 .mapboxgl-popup {
     /* max-width: 230px; */
     padding: 10px;
